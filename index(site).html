@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <style>
+        *{
+
+            font-family: Montserrat;
+        }
+        /* div{
+            border: 1px solid black;
+        } */
+        .container{
+            width: 360px;
+            margin: auto;
+        }
+        /* header classes */
+        .header{
+            display: flex;
+            height: 41px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header_logo{
+            display: flex;
+            align-items: center;
+        }
+        .header_logo-img > img{
+            height: 24px;
+            width: 19px;
+        }
+        .header_logo > p{
+            font-size: 20px;
+            font-weight: 400;
+            text-align: left;
+            margin-left: 6px;
+        }
+        
+        /*honey-text classes */
+        .honey-text_buying{
+            margin-top: 73px;
+            position: absolute;
+            height: 210px;            
+            width: 360px;     
+
+        }
+        .honey-text_image{
+            height: 623px;
+            overflow: hidden;
+        }
+        .honey-text_multiply{
+            position: absolute;
+            height: 210px;            
+            width: 360px;        
+            background-color: #C4C4C4;
+            mix-blend-mode: multiply;
+        }
+        .honey-text_image>img{
+            position: relative;
+            width: 928.6px;
+            height: 623px;
+            left: -525px;
+            z-index: -1;
+        }
+        .honey-text_positioning{
+            position: relative;
+            margin: 0px 12px 18px 12px;
+        }
+        .honey-text_header{
+            font-style: 30px;
+            font-weight: 800;
+
+        }
+        .honey-text_head-text{
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .honey-text_button{
+            height: 36px;
+            width: 180px;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 18px;
+            font-size: 15px;
+            font-weight: 400;
+            border: none;
+        }
+        .honey-type{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .honey-type_flex{
+            display: flex;
+            justify-content: space-between;
+        }
+        .honey-type_arrow-left{
+            align-self: center;
+        }
+        .honey-type_arrow-right{
+            align-self: center;
+        }
+        .honey-type_item > img{
+            height: 229px;
+            width: 200px; 
+        }
+        .honey-type_rounds{
+            display: flex;
+            margin: 0 auto;
+        }
+        .rounds{
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin: 0px 5px 0px 5px;
+        }
+        .active{        
+            margin: 3px 3px;    
+            border-radius: 50%;
+            height: 18px;
+            width: 18px;
+            background-color: black;
+        }
+        .footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class='header'>
+            <div class="header_logo">
+                <div class="header_logo-img"><img src='./site/bee.png' alt="bee-logo"></div><p>HONEY BEE</p>
+            </div>
+            <div class="header_menu"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg" alt=""></div>
+        </div>
+       <div class='honey-text'>
+           <div class="honey-text_buying">
+                <div class="honey-text_multiply">
+                </div>
+                <div class="honey-text_positioning">
+                    <div class="honey-text_head-text">
+                        <p class="honey-text_header">Свежайший мед</p> 
+                        <p>Счастливые пчелы собирают мед каждый день сбескрайних лугов , полей, лесов. Чтобы Ваш мед был самым вкусным</p>
+                    </div>
+                    <button class="honey-text_button">Купить сейчас</button> 
+                </div>
+                
+            </div>
+           <div class="honey-text_image"><img src="https://s3-alpha-sig.figma.com/img/bb79/ab9e/ad72744e6458821111d019e23167d971?Expires=1645401600&Signature=BHDfeN1NA8r9kXTCtpyAHFGZN60y5tPiDxigz04KcpiousXr6wZfJ4sZJSIyu8UI2K-7HbkBJ2OKvcP2kGTIeibLOWnx6LZztcqL97txHQVbfSCrdE3gBLUq1GHc~9KFcfSOgscmbtirbVtRaKrPKXFBA3U~HXN0zzl-tGV5zVm5~-dE92yGJuNqlNH1xGrIAgib~-rl1QnAiMbqEFWDQgjbSS7io1tM7D8nK6eJvyfx0~NE~G2QFhbOKUpAz5iVhsa9ldPNIx5~43TlKFy43GNBioAW5lO9I-N~ha5clzfwwAS9k5r4DKTAxdDb6HwaaoSb45MYrptVW0-IoEZX4g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt=""></div>
+       </div>
+       <div class='honey-type'>
+           <div class="honey-type_header"><h3>Популярные товары</h3></div>
+           <div class="honey-type_flex">
+                <div class="honey-type_arrow-left"><img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/000000/external-left-arrows-kmg-design-glyph-kmg-design-1.png"/></div>
+                <div class="honey-type_item"><img src="https://s3-alpha-sig.figma.com/img/50ca/6655/08d0f53df238bd2bd1ccb0e5893f226e?Expires=1645401600&Signature=L5ecgtKxglL3LN-qpiaKBhIqyODU6e6fAvASVJO91k5da7qGbdp54IivYT1teKfAWC5xM1O8wjbN64rZ4yx0qcrugBasV0YHvBGb~eFltJRyUwh70V1mTy3jYPJiVSefQG~4lbbP1kr71WHhzj03~MIAHC7KAiQKV1O7pFT2O8dop2JxTrul6k2UI0bAX9ynTm-jPwxGEJG1wozxHvzeOq~Z~L52rrnNA9I-V9GEaf0lHZMrvEnuxG3A98kUbiaZkgEYFrHm~RlcZ00hEnc~9f-B4fWRd9Fn-a1dioQIWOgaZgs7yqugYrmHpQOzsbwDT3qMR1eC3GfTtbwopbn8mw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+                <p>Мед с шишками</p></div>
+                <div class="honey-type_arrow-right"><img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/000000/external-right-arrow-arrows-kmg-design-glyph-kmg-design-1.png"/></div>
+           </div>
+           
+           <div class="honey-type_rounds">
+               <div class="rounds"></div>
+               <div class="rounds"></div>
+               <div class="rounds"><div class="active"></div></div>
+               <div class="rounds"></div>
+               <div class="rounds"></div>
+           </div>
+       </div>
+       <div class='home-beez'>
+           <div class="home-bees_imgage"></div>
+           <div class="home-beez_more-info"></div>
+       </div>
+       <div class='recall'>
+           <div class="recall_header"></div>
+           <div class="recall_form"></div>
+           <div class="recall_button"></div>
+       </div>
+       <div class='footer'>Все права защищены  ©HoneyBee 2021</div>
+    </div>
+</body>
+</html>

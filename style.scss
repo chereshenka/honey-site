@@ -1,0 +1,179 @@
+.container {
+    font-family: Montserrat;
+    width: 360px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    height: 41px;
+    justify-content: space-between;
+
+		// .header_logo
+
+		&_logo {
+            img{
+                height: 22px;
+                width: 19px;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+            }
+
+		}
+
+		// .header_menu
+
+		&_menu {
+		}
+}
+.honey-text {
+
+		// .honey-text_buying
+
+		&_buying {
+            margin-top: 73px;
+            position: absolute;
+            height: 210px;            
+            width: 360px;        
+            background-color: #C4C4C4;
+            mix-blend-mode: multiply;
+		}
+
+		// .honey-text_multiply
+
+		&_multiply {
+		}
+
+		// .honey-text_positioning
+
+		&_positioning {
+            position: relative;
+		}
+
+		// .honey-text_head-text
+
+		&_head-text {
+            color: white;
+		}
+
+		// .honey-text_button
+
+		&_button {
+            height: 36px;
+            width: 180px;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 18px;
+            font-size: 15px;
+            font-weight: 400;
+		}
+
+		// .honey-text_image
+
+		&_image {
+            height: 623px;
+            overflow: hidden;
+            img{
+                position: relative;
+                width: 928.6px;
+                height: 623px;
+                left: -525px;
+                z-index: -1;
+            }
+		}
+}
+.honey-type {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+		// .honey-type_header
+
+		&_header {
+		}
+
+		// .honey-type_flex
+
+		&_flex {
+                  display: flex;
+                  justify-content: space-between;
+		}
+
+		// .honey-type_arrow-left
+
+		&_arrow-left {
+            align-self: center;
+		}
+
+		// .honey-type_item
+
+		&_item {
+            
+                  img{
+                  height: 229px;
+                  width: 200px; 
+                  }
+            }
+		// .honey-type_arrow-right
+
+		&_arrow-right {
+            align-self: center;
+		}
+
+		// .honey-type_rounds
+
+		&_rounds {
+            display: flex;
+		}
+}
+.rounds {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.active {
+    margin: 3px 3px;    
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 18px;
+    width: 18px;
+    background-color: black;
+}
+.home-beez {
+
+		// .home-beez_more-info
+
+		&_more-info {
+		}
+}
+.home-bees {
+
+		// .home-bees_imgage
+
+		&_imgage {
+		}
+}
+.recall {
+
+		// .recall_header
+
+		&_header {
+		}
+
+		// .recall_form
+
+		&_form {
+		}
+
+		// .recall_button
+
+		&_button {
+		}
+}
+.footer {
+    text-align: center;
+}
